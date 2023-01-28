@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/viutexto"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/msg"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/edt_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_below="@+id/edt_Peso"
+        android:layout_marginTop="-151dp"
+        android:hint="digite sua altura:"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <EditText
+        android:id="@+id/edt_Peso"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="165dp"
+        android:hint="digite seu peso:"
+        android:inputType="numberDecimal"
+        android:maxLength="6" />
+
+
+
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="CALCULAR"  />
+
+</RelativeLayout>
